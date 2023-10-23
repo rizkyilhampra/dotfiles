@@ -138,9 +138,25 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="ls -al"
 alias nvimbak="~/.scripts/nvim-bak.sh"
 alias df="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias dfa="df add"
+alias dfc="df commit"
+alias dfp="df push"
+alias dfe="df add -e"
+alias dfs="df status"
+alias dfl="df log"
+
+function dcp() {
+  # Mengecek apakah sudah ada autentikasi sudo sebelumnya dalam sesi yang sama
+  if sudo -n true 2>/dev/null; then
+    sudo ~/.scripts/discord-relay.sh &
+  else
+    echo "Password sudo diperlukan untuk menjalankan script ini."
+    sudo -v  # Meminta password sudo
+    sudo ~/.scripts/discord-relay.sh &
+  fi
+}
 
 # fnm
 export PATH="/home/aquila/.local/share/fnm:$PATH"
@@ -148,14 +164,3 @@ eval "`fnm env`"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-function dcp() {
-  # Mengecek apakah sudah ada autentikasi sudo sebelumnya dalam sesi yang sama
-  if sudo -n true 2>/dev/null; then
-    sudo ~/scripts/discord-relay.sh &
-  else
-    echo "Password sudo diperlukan untuk menjalankan script ini."
-    sudo -v  # Meminta password sudo
-    sudo ~/scripts/discord-relay.sh &
-  fi
-}
