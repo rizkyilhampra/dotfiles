@@ -140,7 +140,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -al"
 alias nvimbak="~/.scripts/nvim-bak.sh"
-alias dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME $@"
+alias df="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
 # fnm
 export PATH="/home/aquila/.local/share/fnm:$PATH"
