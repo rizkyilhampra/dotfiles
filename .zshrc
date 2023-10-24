@@ -114,14 +114,6 @@ source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nvimbak="~/.scripts/nvim-bak.sh"
-alias df="git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-alias dfa="df add"
-alias dfc="df commit"
-alias dfp="df push"
-alias dfe="df add -e"
-alias dfs="df status"
-alias dfl="df log"
-
 function dcp() {
   # Mengecek apakah sudah ada autentikasi sudo sebelumnya dalam sesi yang sama
   if sudo -n true 2>/dev/null; then
