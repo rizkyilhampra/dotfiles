@@ -1,30 +1,3 @@
-# get_random_quote() {
-#     local response
-#     response=$(curl -s 'https://zenquotes.io/api/random')
-#
-#     if [[ "$response" == "false" || "$response" == "404" || "$response" == "null" ]]; then
-#         local quote=""
-#         local author=""
-#
-#     else
-#         local quote
-#         local author
-#
-#         quote=$(echo "$response" | jq -r '.[0].q')
-#         author=$(echo "$response" | jq -r '.[0].a')
-#     fi
-#
-#     echo "Welcome Aquila! How's today?"
-#     echo
-#     echo "\"$quote\""
-#     echo "- $author"
-#     echo
-# }
-#
-# get_random_quote
-echo "Welcome Aquila! How's today?\n\n"
-
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -105,13 +78,15 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	zsh-autosuggestions
-	web-search
-	zsh-syntax-highlighting
+    git
+    zsh-autosuggestions 
+    web-search 
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # User configuration
 
@@ -158,9 +133,9 @@ function dcp() {
   fi
 }
 
-# fnm
-export PATH="/home/aquila/.local/share/fnm:$PATH"
-eval "`fnm env`"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#fnm
+export PATH="/home/aquila/.local/share/fnm:$PATH"
+eval "`fnm env`"
