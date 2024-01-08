@@ -134,7 +134,9 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 #custom alias
 export PATH="$HOME/.aliasses:$PATH"
 export PATH="/home/aquila/.local/share/bob/nvim-bin/:$PATH"
+export PATH="$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH"
 export EDITOR="nvim"
 
 $HOME/.local/bin/archey
+eval "$(zoxide init zsh --cmd j)"
 eval "$(starship init zsh)"
