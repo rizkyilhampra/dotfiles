@@ -111,7 +111,8 @@ alias nvimbak="~/.scripts/nvim-bak.sh"
 alias ar="php artisan"
 alias migrate="php artisan migrate:fresh --seed"
 alias update="sudo apt update && sudo apt upgrade -y"
-alias ll="eza --icons --tree --level=1 --git --long"
+alias ll="eza -a --icons --tree --level=1 --git --long"
+alias ls="eza -a --icons"
 alias livewire="php artisan livewire:make"
 
 function dcp() {
