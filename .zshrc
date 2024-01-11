@@ -113,7 +113,8 @@ alias migrate="php artisan migrate:fresh --seed"
 alias update="sudo apt update && sudo apt upgrade -y"
 alias ll="eza -a --icons --tree --level=1 --git --long"
 alias ls="eza -a --icons"
-alias livewire="php artisan livewire:make"
+alias lw="php artisan livewire:make"
+alias lwf="php artisan livewire:form"
 
 function dcp() {
   # Mengecek apakah sudah ada autentikasi sudo sebelumnya dalam sesi yang sama
