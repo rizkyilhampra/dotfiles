@@ -1,0 +1,165 @@
+{
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.fontFamily": "Iosevka Medium Extended, Consolas, 'Courier New', monospace",
+  // "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "terminal.integrated.fontWeight": "500",
+  "workbench.editor.showTabs": "none",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  //vim start
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<C-d>"
+      ],
+      "after": [
+        "1",
+        "2",
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-u>"
+      ],
+      "after": [
+        "1",
+        "2",
+        "g",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "<Space>"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "Tab"
+      ],
+      "commands": [
+        "workbench.action.quickOpenPreviousEditor"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "a",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+  ],
+  "vim.foldfix": true,
+  "vim.leader": " ",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+  // vim stop
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "json.schemas": [],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+  ],
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.colorCustomizations": {},
+  "explorer.confirmPasteNative": false,
+  "editor.accessibilitySupport": "off",
+  "window.titleBarStyle": "custom",
+  "window.customTitleBarVisibility": "auto",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 12,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.launchpad.indicator.enabled": false,
+  "editor.cursorSurroundingLines": 14,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+}

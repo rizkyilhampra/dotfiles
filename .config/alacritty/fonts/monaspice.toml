@@ -1,0 +1,9 @@
+[font.bold]
+family = "MonaspiceRn Nerd Font"
+style = "Bold"
+[font.italic]
+family = "MonaspiceXe Nerd Font"
+style = "Medium Italic"
+[font.normal]
+family = "MonaspiceNe Nerd Font"
+style = "Medium"

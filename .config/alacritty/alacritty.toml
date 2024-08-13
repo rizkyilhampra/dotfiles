@@ -1,0 +1,40 @@
+import = [
+    #THEME
+    "~/.config/alacritty/themes/catppuccin-mocha.toml",
+    # "~/.config/alacritty/themes/tokyonight-moon.toml"
+
+    #FONT
+    "~/.config/alacritty/fonts/geistmono-ft-jetbrains-mono.toml",
+    # "~/.config/alacritty/fonts/monaspice.toml"
+]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font]
+size = 12.0
+
+# [[keyboard.bindings]]
+# chars = "\u0017"
+# key = "Back"
+# mods = "Control"
+
+# [[keyboard.bindings]]
+# chars = "\u0000"
+# key = "Space"
+# mods = "Control"
+
+[window]
+opacity = 0.9
+padding = { x = 10 }
+dynamic_padding = true
+
+[env]
+TERM = 'xterm-256color'
+
+[selection]
+save_to_clipboard = true

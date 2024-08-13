@@ -1,0 +1,46 @@
+#fix top bar color and background color not as expected
+linux_display_server x11
+
+font_family         Monaspace Neon Light
+bold_font           Monaspace Radon Bold 
+italic_font         Monaspace Neon Italic 
+bold_italic_font    Monaspace Radon Bold Italic 
+
+font_size 12.0
+
+font_features MonaspaceNeon-Light           calt liga dlig ss01 ss02 ss03 ss04 ss05 ss06 ss07 ss08
+font_features MonaspaceRadon-BoldItalic     calt liga dlig ss01 ss02 ss03 ss04 ss05 ss06 ss07 ss08
+font_features MonaspaceRadon-Bold           calt liga dlig ss01 ss02 ss03 ss04 ss05 ss06 ss07 ss08
+font_features MonaspaceXenon-Italic         calt liga dlig ss01 ss02 ss03 ss04 ss05 ss06 ss07 ss08
+
+symbol_map codepoints Symbol NFM
+# issue where neovim status line, the font thickness not as expected. 
+# i do not know is cause my font or themes
+text_composition_strategy 6.0 5
+
+disable_ligatures cursor
+
+enable_audio_bell no
+
+confirm_os_window_close 0
+
+remember_window_size no
+initial_window_width  1200
+initial_window_height 600
+window_margin_width 5
+
+hide_window_decorations no
+
+background_opacity 0.95
+background_blur 1
+
+# BEGIN_KITTY_THEMb
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME

@@ -1,0 +1,9 @@
+[font.normal]
+family = "GeistMono Nerd Font"
+style = "Medium"
+[font.italic]
+family = "JetBrains Mono"
+style = "Medium Italic"
+[font.bold]
+family = "GeistMono Nerd Font"
+style = "Bold"
