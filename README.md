@@ -1,4 +1,4 @@
-# [Aquila's](https://github.com/rizkyilhampra) Dotfiles v2
+# [Aquila's](https://github.com/rizkyilhampra) Dotfiles
 
 > [!NOTE] 
 > Working on progress to make nicer README
