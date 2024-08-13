@@ -5,6 +5,7 @@ plugins=(
     zsh-autosuggestions 
     zsh-syntax-highlighting
     zsh-autocomplete
+    autoupdate
 )
 
 source $ZSH/oh-my-zsh.sh
