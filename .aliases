@@ -4,6 +4,7 @@ alias artisan='php artisan'
 alias a='artisan'
 alias am='artisan  migrate:fresh --seed'
 alias aoc='artisan optimize:clear'
+alias ao='artisan optimize'
 alias amav="artisan make:view"
 alias amam="artisan make:model"
 alias amac="artisan make:controller"
@@ -13,6 +14,7 @@ alias s='sail'
 alias sa='sail artisan'
 alias sam='sail artisan migrate:fresh --seed'
 alias saoc='sail artisan optimize:clear'
+alias sao='sail artisan optimize'
 alias sprd='sail pnpm run dev'
 
 alias slm="sail artisan livewire:make"
@@ -72,3 +74,4 @@ alias ripnv="NVIM_APPNAME=ripnv nvim"
 alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 
 alias i="yay -Sy"
+
