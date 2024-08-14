@@ -162,4 +162,5 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
+  "redhat.telemetry.enabled": true,
 }
