@@ -1,31 +1,31 @@
 #!/bin/bash
 
-alias artisan='php artisan'
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
+artisan() {
+    if [ -f docker-compose.yml ]; then
+        sail artisan "$@"
+    else
+        php artisan "$@"
+    fi
+}
+
 alias a='artisan'
-alias am='artisan  migrate:fresh --seed'
+alias am='artisan migrate:fresh --seed'
+alias amf='artisan migrate:fresh --force'
 alias aoc='artisan optimize:clear'
 alias ao='artisan optimize'
 alias amav="artisan make:view"
 alias amam="artisan make:model"
 alias amac="artisan make:controller"
+alias alm="artisan livewire:make"
+alias alf="artisan livewire:form"
 
-alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
-alias s='sail'
-alias sa='sail artisan'
-alias sam='sail artisan migrate:fresh --seed'
-alias saoc='sail artisan optimize:clear'
-alias sao='sail artisan optimize'
-alias sprd='sail pnpm run dev'
-
-alias slm="sail artisan livewire:make"
-alias slf="sail artisan livewire:form"
-
-alias serve='artisan serve'
+alias serve='php artisan serve'
 alias up='sail up -d'
 alias down='sail down'
 alias tinker='artisan tinker'
 alias stan="vendor/bin/phpstan"
-
 
 if command -v eza > /dev/null 2>&1; then
     alias ll="eza -a --icons --tree --level=1 --git --long"
