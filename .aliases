@@ -75,6 +75,6 @@ alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 
 alias i="yay -Sy"
 
-function t() {
-    sesh connect \"$(sesh list -i | gum filter --limit 1 --placeholder 'Pick a dir to open as an tmux session' --height 50 --prompt='⚡')\"
+t() {
+    sesh connect \"$(sesh list --hide-attached -i | gum filter --limit 1 --placeholder 'Pick a dir to open as an tmux session' --height 50 --prompt='⚡')\"
 }
