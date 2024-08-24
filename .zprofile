@@ -8,9 +8,6 @@ PATH="$HOME/.config/composer/vendor/bin:$PATH"
 #Neovim Package Manager
 export PATH="$HOME/.local/share/bob/nvim-bin/:$PATH"
 
-# tmux plugin
-export PATH="$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH"
-
 # spotify theme
 export PATH=$PATH:$HOME/.spicetify
 
