@@ -1,6 +1,7 @@
 #!/bin/bash
 
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+alias s='sail'
 
 artisan() {
     if [ -f docker-compose.yml ]; then
@@ -12,7 +13,7 @@ artisan() {
 
 alias a='artisan'
 alias am='artisan migrate:fresh --seed'
-alias amf='artisan migrate:fresh --force'
+alias amf='artisan migrate:fresh --seed --force'
 alias aoc='artisan optimize:clear'
 alias ao='artisan optimize'
 alias amav="artisan make:view"
