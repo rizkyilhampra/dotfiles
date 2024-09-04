@@ -26,6 +26,7 @@ Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) | MPD client |
 | [mpd](https://github.com/MusicPlayerDaemon/MPD) | Music Player Daemon |
 | [yay](https://github.com/Jguer/yay) | Pacman Wrapper |
+| [Zen Browser](https://github.com/zen-browser/desktop) [Thorium](https://github.com/Alex313031/Thorium) `chromium` | Browsers |
 
 ## Todo
 - [ ] Add Screenshot
