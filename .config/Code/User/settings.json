@@ -163,4 +163,5 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "redhat.telemetry.enabled": true,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
 }
