@@ -5,7 +5,7 @@
 
 Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 
-## Tools & Applications
+## Packages / Applications
 | Name | Description |
 | --- | --- |
 | [kitty](https://sw.kovidgoyal.net/kitty/) | Terminal |
@@ -26,13 +26,4 @@ Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) | MPD client |
 | [mpd](https://github.com/MusicPlayerDaemon/MPD) | Music Player Daemon |
 | [yay](https://github.com/Jguer/yay) | Pacman Wrapper |
-| [Zen Browser](https://github.com/zen-browser/desktop) [Thorium](https://github.com/Alex313031/Thorium) `chromium` | Browsers |
-
-## Todo
-- [ ] Add Screenshot
-- [ ] Improve speed of shell startup when open terminal
-    <br>
-    One of the following:
-    - [ ] Do refactor on ZSH configuration | Move another framework instead OMZ
-    - [ ] Use another shell (maybe fish)
-- [ ] Configure mpd with ncmpcpp for music player
+| [Zen Browser](https://github.com/zen-browser/desktop) [Thorium](https://github.com/Alex313031/Thorium) Chromium | Browsers |
