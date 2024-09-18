@@ -25,5 +25,12 @@ Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 | [rmpc](https://github.com/mierak/rmpc) | MPD client like [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) but with display album art support out of the box |
 | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) | MPD client |
 | [mpd](https://github.com/MusicPlayerDaemon/MPD) | Music player daemon |
-| [yay](https://github.com/Jguer/yay) | Pacman wrapper |
-| [Zen Browser](https://github.com/zen-browser/desktop) [Thorium](https://github.com/Alex313031/Thorium) [Chromium](https://archlinux.org/packages/extra/x86_64/chromium/) | The browsers i use. Chromium for work building an web app, then Thorium as my second personal browser and last on is an new comer Zen Browser i use as primary |
+
+| Concern | Name | Links | Preference Installation | Description |
+| --- | --- | --- | --- | --- |
+| | reflector | [arch wiki](https://wiki.archlinux.org/title/Reflector) | `yay -S reflector` | Mirrorlist generator |
+| | protonvpn-cli | [arch wiki](https://wiki.archlinux.org/title/ProtonVPN#Official_command-line_interface) | `yay -S protonvpn-cli` | VPN with ProtonVPN in CLI |
+| | yay | [source and documentation](https://github.com/Jguer/yay) | `sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si` | Pacman wrapper |
+| Browser | Zen Browser | [source](https://github.com/zen-browser/desktop) | `yay -S zen-browser` | Primary browser |
+| Browser | Thorium | [source](https://github.com/Alex313031/Thorium) | `yay -S thorium` | Secondary browser |
+| Browser | Chromium | [source](https://archlinux.org/packages/extra/x86_64/chromium/) | `yay -S chromium` | Work browser |
