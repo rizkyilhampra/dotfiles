@@ -44,5 +44,10 @@ export PATH="$HOME/.symfony5/bin:$PATH"
 eval "$(fnm env --use-on-cd)"
 eval "$(batman --export-env)"
 
+[ -s "/home/aquila/.bun/_bun" ] && source "/home/aquila/.bun/_bun"
+
+eval "$(thefuck --alias)"
+eval "$(zoxide init zsh --cmd j)"
+
 # eliminates duplicates in *paths
 typeset -gU cdpath fpath path

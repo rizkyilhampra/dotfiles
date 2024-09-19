@@ -5,19 +5,13 @@ plugins=(
     zsh-autosuggestions 
     zsh-syntax-highlighting
     zsh-autocomplete
-    autoupdate
 )
 
 source $ZSH/oh-my-zsh.sh
 
-zstyle ':completion:*' completer _expand_alias _complete _ignored
-
 source $HOME/.aliases
 
-[ -s "/home/aquila/.bun/_bun" ] && source "/home/aquila/.bun/_bun"
-
-eval "$(thefuck --alias)"
-eval "$(zoxide init zsh --cmd j)"
+zstyle ':completion:*' completer _expand_alias _complete _ignored
 
 # Load and initialize the completion system ignoring insecure directories with a
 # cache time of 20 hours, so it should almost always regenerate the first time a
@@ -32,5 +26,4 @@ fi
 unset _comp_files
 
 eval "$(starship init zsh)"
-
 pfetch
