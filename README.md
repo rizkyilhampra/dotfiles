@@ -30,3 +30,9 @@ Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 | [protonvpn-cli](https://wiki.archlinux.org/title/ProtonVPN#Official_command-line_interface)                                                                                                                  | VPN with ProtonVPN in CLI                                                                                       |
 | [yay](https://github.com/Jguer/yay)                                                                                                                                                                          | Pacman wrapper                                                                                                  |
 | [zen-browser](https://github.com/zen-browser/desktop) [chromium](https://archlinux.org/packages/extra/x86_64/chromium/) [thorium-browser](https://github.com/Alex313031/Thorium)                             | Browsers                                                                                                        |
+| [fastfetch](https://github.com/fastfetch-cli/fastfetch) [pfetch-rs](https://github.com/Gobidev/pfetch-rs) | Fetching system information |
+| [delta](https://github.com/dandavison/delta) | Better diff syntax highlight, used for `git diff` and needed for `lazygit` |
+| [lazygit](https://github.com/jesseduffield/lazygit) | TUI git client |
+| [lazysql](https://github.com/jorgerojas26/lazysql) | TUI SQL client |
+| [lazydocker](https://github.com/jesseduffield/lazydocker) | TUI docker client |
+| [serpl](https://github.com/yassinebridi/serpl) | TUI for search and replace text |
