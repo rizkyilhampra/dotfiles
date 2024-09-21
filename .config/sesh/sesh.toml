@@ -5,4 +5,3 @@ path = "~"
 [[session]]
 name = "Neovim Configuration 📝"
 path = "~/.config/nvim"
-startup_command = "nvim"
