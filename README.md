@@ -5,6 +5,9 @@
 
 Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 
+## Screenshots
+![screenshot 1 ](./assets/2024-09-28-151336_hyprshot.png)
+
 ## Packages / Applications
 
 | Name                                                                                                                                                                                                         | Description                                                                                                     |
