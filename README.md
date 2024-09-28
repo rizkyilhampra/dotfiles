@@ -39,3 +39,6 @@ Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 | [lazysql](https://github.com/jorgerojas26/lazysql) | TUI SQL client |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | TUI docker client |
 | [serpl](https://github.com/yassinebridi/serpl) | TUI for search and replace text |
+
+## Reference
+- https://github.com/neuromask/catppuccin-linux-theme
