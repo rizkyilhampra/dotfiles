@@ -81,8 +81,6 @@ alias lnv="NVIM_APPNAME=lazyvim nvim"
 alias ripnv="NVIM_APPNAME=ripnv nvim"
 alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 
-alias nmc="~/.scripts/nmc.sh"
-
 t() {
     sesh connect "${1:-$(sesh list --hide-attached | \
         fzf \
@@ -93,3 +91,5 @@ t() {
             --prompt '⚡  ')}"
 
 }
+
+alias ta="tmux attach -t"
