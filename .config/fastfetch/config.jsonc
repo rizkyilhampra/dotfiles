@@ -6,7 +6,7 @@
     "height": 16,
     "width": 34,
     "padding": {
-      "top": 2,
+      "top": 1,
       "left": 3,
     },
   },
@@ -76,24 +76,13 @@
       "keyColor": "yellow",
     },
     {
-      "type": "gpu",
-      "key": "│ ├󰍛 GPU Driver",
-      "format": "{3}",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "vulkan",
-      "key": "│ └󰍛 Vulkan",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "terminal",
-      "key": " Terminal",
+      "type": "shell",
+      "key": " Shell",
       "keyColor": "blue",
     },
     {
-      "type": "shell",
-      "key": "│ ├ Shell",
+      "type": "terminal",
+      "key": "│ ├ Terminal",
       "keyColor": "blue",
     },
     {
