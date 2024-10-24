@@ -3,5 +3,9 @@ name = "Home 🏠"
 path = "~"
 
 [[session]]
-name = "Neovim Configuration 📝"
+name = "Neovim Conf 💻"
 path = "~/.config/nvim"
+
+[[session]]
+name = "Notes 📝"
+path = "~/Notes/aquila-notes/"
