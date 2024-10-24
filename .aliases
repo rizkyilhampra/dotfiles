@@ -93,3 +93,6 @@ t() {
 }
 
 alias ta="tmux attach -t"
+
+alias cl="clear"
+
