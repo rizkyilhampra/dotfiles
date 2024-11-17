@@ -93,7 +93,6 @@
   },
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
-    "asvetliakov.vscode-neovim": 1
   },
   // vim stop
   "github.copilot.enable": {
@@ -160,8 +159,10 @@
   "gitlens.launchpad.indicator.enabled": false,
   "editor.cursorSurroundingLines": 14,
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
   "redhat.telemetry.enabled": true,
+  "laravel-pint.enable": true,
+  "editor.wordWrap": "on",
   "files.saveConflictResolution": "overwriteFileOnDisk",
 }
