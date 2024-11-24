@@ -1,5 +1,6 @@
 plugins=(
     gitfast
+    direnv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -10,13 +11,13 @@ source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 source $HOME/.aliases
 
-# show aliases in completion
-zstyle ':completion:*' completer _expand_alias _complete _ignored
-
 # fuzzy matching
 zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*:match:*' original only
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=($((($#PREFIX+$#SUFFIX)/3>7?7:($#PREFIX+$#SUFFIX)/3))numeric)'
+
+# show aliases in completion
+zstyle ':completion:*' completer _expand_alias _complete _ignored
 
 # This speeds up pasting w/ autosuggest
 # https://github.com/zsh-users/zsh-autosuggestions/issues/238
