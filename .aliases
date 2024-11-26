@@ -80,6 +80,8 @@ alias rnv="NVIM_APPNAME=rnvim nvim"
 alias lnv="NVIM_APPNAME=lazyvim nvim"
 alias ripnv="NVIM_APPNAME=ripnv nvim"
 alias lazyvim="NVIM_APPNAME=lazyvim nvim"
+alias nvchad="NVIM_APPNAME=nvchad nvim"
+alias nvchad2="NVIM_APPNAME=nvchad2 nvim"
 
 t() {
     sesh connect "${1:-$(sesh list --hide-attached | \
@@ -98,3 +100,4 @@ alias cl="clear"
 
 alias clone="git clone"
 alias comp="composer"
+alias gp="git push"
