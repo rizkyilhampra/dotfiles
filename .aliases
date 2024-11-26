@@ -96,3 +96,5 @@ alias ta="tmux attach -t"
 
 alias cl="clear"
 
+alias clone="git clone"
+alias comp="composer"
