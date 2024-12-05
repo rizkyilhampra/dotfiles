@@ -1,6 +1,7 @@
 plugins=(
     gitfast
     direnv
+    zsh-better-npm-completion
 )
 
 source $ZSH/oh-my-zsh.sh
