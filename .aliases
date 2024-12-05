@@ -16,9 +16,9 @@ alias am='artisan migrate:fresh --seed'
 alias amf='artisan migrate:fresh --seed --force'
 alias aoc='artisan optimize:clear'
 alias ao='artisan optimize'
-alias amav="artisan make:view"
-alias amam="artisan make:model"
-alias amac="artisan make:controller"
+alias amv="artisan make:view"
+alias amm="artisan make:model"
+alias amc="artisan make:controller"
 alias alm="artisan livewire:make"
 alias alf="artisan livewire:form"
 
