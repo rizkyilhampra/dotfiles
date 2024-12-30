@@ -9,3 +9,7 @@ path = "~/.config/nvim"
 [[session]]
 name = "Notes 📝"
 path = "~/Notes/aquila-notes/"
+
+[[session]]
+name = "Vault Notes 📝🔐"
+path = "~/Notes/aquila-notes/vault-notes"
