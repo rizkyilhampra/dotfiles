@@ -6,7 +6,7 @@
 Contain all of my configuration in Arch Linux (btw) + Hyprland WM.
 
 ## Screenshots
-![screenshot 1 ](./assets/2024-09-28-152057_hyprshot.png)
+![screenshot 1 ](./assets/2024-12-30-221255_hyprshot.png)
 
 ## Packages / Applications
 
