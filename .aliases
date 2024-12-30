@@ -28,7 +28,7 @@ alias down='sail down'
 alias tinker='artisan tinker'
 alias stan="vendor/bin/phpstan"
 
-if command -v eza > /dev/null 2>&1; then
+if command -v eza >/dev/null 2>&1; then
     alias ll="eza -a --icons --tree --level=1 --git --long"
     alias ls="eza -a --icons"
 else
@@ -36,7 +36,7 @@ else
     alias ls="ls -a"
 fi
 
-if command -v bat > /dev/null 2>&1; then
+if command -v bat >/dev/null 2>&1; then
     alias cat='bat'
 fi
 
@@ -92,7 +92,7 @@ alias nvchad="NVIM_APPNAME=nvchad nvim"
 alias nvchad2="NVIM_APPNAME=nvchad2 nvim"
 
 t() {
-    sesh connect "${1:-$(sesh list --hide-attached | \
+    sesh connect "${1:-$(sesh list --hide-attached |
         fzf \
             --height 40% \
             --reverse \
