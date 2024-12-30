@@ -51,6 +51,14 @@ lg() {
     fi
 }
 
+commit() {
+    if [ "$PWD" = "$HOME" ]; then
+        yadm enter geminicommit
+    else
+        geminicommit
+    fi
+}
+
 alias yadm="cd $HOME && yadm"
 alias ylg="yadm enter lazygit"
 
