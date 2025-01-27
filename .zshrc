@@ -2,6 +2,7 @@ plugins=(
     gitfast
     direnv
     zsh-better-npm-completion
+    golang
 )
 
 source $ZSH/oh-my-zsh.sh
