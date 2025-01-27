@@ -29,7 +29,7 @@ alias tinker='artisan tinker'
 alias stan="vendor/bin/phpstan"
 
 if command -v eza >/dev/null 2>&1; then
-    alias ll="eza -a --icons --tree --level=1 --git --long"
+    alias ll="eza -a --icons --tree --level=1 --git --long --group"
     alias ls="eza -a --icons"
 else
     alias ll="ls -alFh"
