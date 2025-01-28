@@ -1,3 +1,6 @@
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+ZSH_THEME=""
+
 plugins=(
     gitfast
     direnv
