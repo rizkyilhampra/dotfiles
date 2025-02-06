@@ -108,5 +108,5 @@ alias comp="composer"
 
 alias clone="git clone"
 alias gp="git push"
-alias gls="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red)%aN' --date-order --graph --date=format:%d/%m/%y\ %H:%M:%S --all --stat"
-alias gl="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red)%aN' --date-order --graph --date=format:%d/%m/%y\ %H:%M:%S --all"
+alias gls="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red)%aN' --date-order --graph --date=format:%d/%m/%y\ %H:%M:%S --stat"
+alias gl="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red)%aN' --date-order --graph --date=format:%d/%m/%y\ %H:%M:%S"
