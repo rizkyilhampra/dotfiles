@@ -142,7 +142,6 @@
   ],
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.stickyScroll.enabled": true,
-  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
@@ -165,4 +164,29 @@
   "laravel-pint.enable": true,
   "editor.wordWrap": "on",
   "files.saveConflictResolution": "overwriteFileOnDisk",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "tailwind-fold.autoFold": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "diffEditor.renderSideBySide": true,
+  "gitlens.views.commits.files.layout": "tree",
 }
