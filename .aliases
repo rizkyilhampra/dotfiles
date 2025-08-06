@@ -113,3 +113,5 @@ alias gl="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red
 
 alias cp="~/advcpmv/advcp -g"
 alias mv="~/advcpmv/advcp -g"
+
+alias clip2path="~/.scripts/clip2path.sh"
