@@ -74,7 +74,6 @@ alias prb="pnpm run build"
 alias nv="nvim"
 alias gone="~/.scripts/git-delete-untracked-branches.sh"
 alias nah="git reset --hard && git clean -df"
-alias sshk="kitten ssh"
 alias pokemon="pokemon-colorscripts --no-title -r 1,3,6"
 
 alias sudo='sudo ' # Pass aliases through sudo
@@ -113,5 +112,32 @@ alias gl="git log --pretty='%C(cyan)%ad %C(yellow)%h %C(cyan)%d %Creset%s %C(red
 
 alias cp="~/advcpmv/advcp -g"
 alias mv="~/advcpmv/advcp -g"
+
+ghc() {
+  REPO=$(gh repo list --limit 100 --json nameWithOwner,description \
+    --jq '.[] | [.nameWithOwner, (.description // "")] | @tsv' \
+    | fzf \
+        --with-nth=1,2 \
+        --delimiter='\t' \
+        --preview='
+          REPO=$(echo {} | cut -f1)
+          gh api repos/$REPO/readme \
+            --header "Accept: application/vnd.github.v3.raw" 2>/dev/null \
+          | bat --style=plain --color=always -l md \
+          || echo "No README found"
+        ' \
+    | cut -f1)
+
+  [ -z "$REPO" ] && return
+
+  echo -n "Clone as (leave blank to use default name): "
+  read CUSTOM_NAME
+
+  if [ -z "$CUSTOM_NAME" ]; then
+    gh repo clone "$REPO"
+  else
+    gh repo clone "$REPO" "$CUSTOM_NAME"
+  fi
+}
 
 alias clip2path="~/.scripts/clip2path.sh"
